@@ -1,0 +1,17 @@
+.popup__form {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  max-width: 430px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 34px 36px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 560px) {
+  .popup__form  {
+    padding: 24px 22px;
+  }
+}

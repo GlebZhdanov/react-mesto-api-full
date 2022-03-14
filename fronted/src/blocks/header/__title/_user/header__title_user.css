@@ -1,0 +1,11 @@
+.header__title_user {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #FFFFFF;
+  padding-right: 24px;
+}

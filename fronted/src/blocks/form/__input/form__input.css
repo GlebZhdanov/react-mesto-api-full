@@ -1,0 +1,20 @@
+.form__input {
+    border: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    border-bottom: 2px solid rgba(84, 84, 84, .7);
+    padding-bottom: 13px;
+    color: #cccccc;
+    background-color: black;
+    text-overflow: ellipsis;
+    outline: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.form__input:last-of-type {
+    margin: 0;
+}

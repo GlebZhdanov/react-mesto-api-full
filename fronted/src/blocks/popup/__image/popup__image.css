@@ -1,0 +1,13 @@
+.popup__image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75vw;
+  height: 75vh;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__image{
+    width: 240px;
+    height: 299px;
+  }
+}

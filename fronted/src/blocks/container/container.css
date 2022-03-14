@@ -1,0 +1,11 @@
+.container {
+    font-family: Inter;
+    max-width: 358px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 60px;
+}

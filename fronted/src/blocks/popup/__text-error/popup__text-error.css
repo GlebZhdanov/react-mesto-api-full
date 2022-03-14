@@ -1,0 +1,11 @@
+.popup__text-error {
+  min-height: 25px;
+  color:red;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 576px) {
+  .popup__text-error  {
+    width: 275px;
+  }
+}
