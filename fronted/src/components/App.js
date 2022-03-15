@@ -51,7 +51,6 @@ function App() {
   },[]);
 
   function handleCardLike(data) {
-    console.log(data)
     const isLiked = data.likes.some(i => i === currentUser._id);
     api.changeLikeCardStatus(data._id, isLiked)
     .then((newCard) => {
@@ -61,7 +60,6 @@ function App() {
     .catch((err) => console.log("ошибка лайка: " + err))
   }
 
-  console.log(currentUser)
   function handlePatchUserInfo(data) {
     api.patchUserInfo(data)
       .then((data) => {
