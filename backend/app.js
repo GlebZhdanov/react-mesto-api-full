@@ -17,10 +17,11 @@ const app = express();
 
 app.use(cors());
 
+
 app.use(express.json());
 console.log(process.env.NODE_ENV);
 mongoose.connect('mongodb://localhost:27017/mydb', () => {
-  console.log('Connect to mydb');
+  console.log('Connec to mydb');
 });
 
 app.get('/crash-test', () => {
