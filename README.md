@@ -6,4 +6,5 @@ __Сервис Mesto__
 Рабочий проект mesto.
 
 публичный IP-адрес сервера: 62.84.113.63
+
 домен: https://glebzhmesto.nomoredomains.work/
