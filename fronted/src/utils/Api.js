@@ -70,9 +70,7 @@ export class Api {
     return fetch(`${this._url}/users/me/avatar`, {
       method: 'PATCH',
       headers: this._getHeaders(),
-      body: JSON.stringify({
-        avatar: data.avatar
-      })
+      body: JSON.stringify(data)
     })
       .then((res) => {
         return this._chekRes(res)
@@ -102,7 +100,7 @@ export class Api {
   }
 
   const api = new Api({
-    url: "http://localhost:3001",
+    url: "http://api.glmesto.nomoredomains.nomoredomains.work",
   })
 
   export {api}

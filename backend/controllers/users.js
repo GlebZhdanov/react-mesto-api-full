@@ -10,6 +10,8 @@ const UnAuthorizeErr = require('../error/UnAuthtorizeErr');
 const MONGO_DUPLICATE_ERROR_CODE = 11000;
 const SOLT_ROUND = 10;
 
+const { NODE_ENV, JWT_SECRET } = process.env;
+
 module.exports.getUsers = async (req, res, next) => {
   try {
     const user = await User.find({});
@@ -155,7 +157,7 @@ module.exports.loginUser = (req, res, next) => {
           }
           const token = jwt.sign(
             { _id: admin._id },
-            'secret',
+            NODE_ENV === 'production' ? JWT_SECRET : 'secret',
             { expiresIn: '7d' },
           );
           res.send({ message: `Bearer ${token}` });
