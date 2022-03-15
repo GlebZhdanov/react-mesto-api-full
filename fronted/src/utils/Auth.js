@@ -48,7 +48,7 @@ export class Auth {
 }
 
 const auth = new Auth({
-  url: 'http://localhost:3001',
+  url: "http://api.glmesto.nomoredomains.nomoredomains.work",
   headers: {
     "Content-Type": "application/json"
   }
