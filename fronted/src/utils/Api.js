@@ -100,7 +100,7 @@ export class Api {
   }
 
   const api = new Api({
-    url: "http://api.glmesto.nomoredomains.nomoredomains.work",
+    url: "https://api.glmesto.nomoredomains.nomoredomains.work",
   })
 
   export {api}

@@ -48,7 +48,7 @@ export class Auth {
 }
 
 const auth = new Auth({
-  url: "http://api.glmesto.nomoredomains.nomoredomains.work",
+  url: "https://api.glmesto.nomoredomains.nomoredomains.work",
   headers: {
     "Content-Type": "application/json"
   }
