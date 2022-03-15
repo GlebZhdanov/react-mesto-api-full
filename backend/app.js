@@ -23,13 +23,13 @@ mongoose.connect('mongodb://localhost:27017/mydb', () => {
   console.log('Connect to mydb');
 });
 
+app.use(requestLogger);
+
 app.get('/crash-test', () => {
   setTimeout(() => {
     throw new Error('Сервер сейчас упадёт');
   }, 0);
 });
-
-app.use(requestLogger);
 
 app.post('/signin', validateLogin, loginUser);
 app.post('/signup', validateUser, createUser);
