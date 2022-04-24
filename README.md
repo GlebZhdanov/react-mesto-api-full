@@ -18,5 +18,5 @@
 
 ## Ссылки на проекты
 
-##### [Mesto Russia React-Express](https://glebzhmesto.nomoredomains.work/) - фронтед проекта
+##### [Mesto](https://glebzhmesto.nomoredomains.work/) - фронтед проекта
 
