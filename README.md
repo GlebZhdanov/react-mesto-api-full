@@ -1,4 +1,4 @@
-# Проект Место
+# Проект Место-Full
 
 ## Описание проекта
 Проект с функционалом похожим на инстаграмм.
@@ -23,5 +23,5 @@
 - Express
 - MongoDB
 
-### Фронтед проекта - [Mesto](https://glebzhmesto.nomoredomains.work/)
+### **Ссылка на проект - [Место-Full](https://glebzhmesto.nomoredomains.work/)**
 
