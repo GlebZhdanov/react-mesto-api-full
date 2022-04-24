@@ -23,5 +23,5 @@
 - Express
 - MongoDB
 
-### **Ссылка на проект - [Место-Full](https://glebzhmesto.nomoredomains.work/)**
+### **Ссылка на проект: [Место-Full](https://glebzhmesto.nomoredomains.work/)**
 
