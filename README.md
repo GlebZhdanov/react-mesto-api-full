@@ -23,7 +23,5 @@
 - Express
 - MongoDB
 
-## Ссылки на проекты
-
 ### Фронтед проекта - [Mesto](https://glebzhmesto.nomoredomains.work/)
 
