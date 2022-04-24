@@ -25,5 +25,5 @@
 
 ## Ссылки на проекты
 
-##### Фронтед проекта - [Mesto](https://glebzhmesto.nomoredomains.work/)
+### Фронтед проекта - [Mesto](https://glebzhmesto.nomoredomains.work/)
 
